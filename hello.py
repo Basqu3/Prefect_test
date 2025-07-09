@@ -1,5 +1,4 @@
 from prefect import flow, tags
-import random
 
 @flow(log_prints=True)
 def hello(name: str = "World") -> None:
